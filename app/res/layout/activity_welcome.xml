@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- WELCOME TEXT (TOP) -->
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/green_primary"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"/>
+
+
+    <!-- CENTER LOGO -->
+
+    <LinearLayout
+        android:id="@+id/logoArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@null"
+            android:src="@drawable/welcome"
+            android:scaleType="centerInside"/>
+
+    </LinearLayout>
+
+
+    <!-- GET STARTED BUTTON -->
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="260dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:text="GET STARTED"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/gradient_background"/>
+
+</RelativeLayout>
