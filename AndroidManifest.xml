@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.remedy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Remedy">
+        <activity android:name=".FavoritesActivity" />
+        <activity
+            android:name=".SavedActivity"
+            android:exported="false" />
+        <activity android:name=".WelcomeActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Remedy.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".AdminPanelActivity" />
+        <activity
+            android:name=".AdminAddRemedyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminRemoveUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminRemediesListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminManageCategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminViewUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".CategoriesActivity" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".AboutActivity" />
+    </application>
+
+</manifest>
