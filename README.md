@@ -1,7 +1,7 @@
 # Home-remedies-finder
 # Remedy App (Android)
 
-Remedy App is an Android application developed using Java in Android Studio. It enables users to explore and manage remedies through an intuitive interface, featuring dynamic filtering, category-based browsing, and administrative controls for content management.
+Remedy App is a Java-based Android application designed to help users discover and manage remedies in an organized way. It features dynamic category filtering, search functionality, and detailed remedy views for better usability. The app also includes an admin panel that allows adding and updating remedies, ensuring the content remains relevant and easy to maintain.
 
 ---
 
