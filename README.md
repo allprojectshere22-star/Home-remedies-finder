@@ -15,8 +15,3 @@ Remedy App is a Java-based Android application designed to help users discover a
 
 ---
 
-## Demo
-
-**Demo Video:**  
-[Watch Demo](https://drive.google.com/file/d/1rmVjfQzeH8xBSa_zvBAq-Vco_Iun40FF/view?usp=drive_link)
-
